@@ -16,6 +16,8 @@
 #define INCREMENT_BUTTON_GPIO_PIN 5
 #define DECREMENT_BUTTON_GPIO_PIN 6
 
+#define DEBOUNCING_TIME_MS 500
+
 static const double no_number[5][5] = {
     {0.0, 0.0, 0.0, 0.0, 0.0},
     {0.0, 0.0, 0.0, 0.0, 0.0},
@@ -170,7 +172,7 @@ int main()
 void button_irq_handler(uint gpio, uint32_t events) {
     uint32_t current_time = to_us_since_boot(get_absolute_time());
 
-    if (current_time - last_time > 500000) // 200 ms
+    if (current_time - last_time > DEBOUNCING_TIME_MS*1000)
     {
         last_time = current_time;
 
