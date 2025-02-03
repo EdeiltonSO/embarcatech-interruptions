@@ -65,11 +65,11 @@ A configuração sugerida para executar o projeto é:
 
 Com os pré-requisitos atendidos, siga os passos a seguir:
 
-1. Utilize o VS Code para abrir a pasta raiz do projeto clonado:
+1. Utilize o a extensão do Raspberry Pi Pico para VS Code para importar o projeto clonado:
 
-![Abrir pasta...](assets/open_folder.PNG)
+![Importar projeto...](assets/import_project.PNG)
 
-2. Clique em "Compile", à direita da barra de status e aguarde o processo:
+2. Após carregar o SDK, clique em "Compile", à direita da barra de status e aguarde o processo:
 
 ![Compile](assets/compile_button.PNG)
 
@@ -81,17 +81,19 @@ Com os pré-requisitos atendidos, siga os passos a seguir:
 
 ## 7. 🐶 Como executar o código na placa BitDogLab
 
-1. Ligue a placa BitDogLab;
+1. Se não tiver feito, execute a primeira instrução do tópico anterior e aguarde o carregamento do SDK;
 
-2. Pressione e segure o botão `BOOTSEL` no Raspberry Pi Pico W;
+2. Ligue a placa BitDogLab;
 
-3. Pressione e solte o botão `RESET` na BitDogLab;
+3. Pressione e segure o botão `BOOTSEL` no Raspberry Pi Pico W;
 
-4. Solte os dois botões anteriores;
+4. Pressione e solte o botão `RESET` na BitDogLab;
 
-5. Conecte a placa ao computador via USB;
+5. Solte os dois botões anteriores;
 
-6. Pressione o botão "Run" na barra inferior do VS Code.
+6. Conecte a placa ao computador via USB;
+
+7. Pressione o botão "Run" na barra inferior do VS Code.
 
 Após a transferência, a placa reiniciará com o programa em execução.
 
