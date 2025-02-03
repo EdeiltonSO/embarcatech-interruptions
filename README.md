@@ -43,6 +43,7 @@ Observações:
 
 - Se o contador estiver em `0` e o usuário pressionar `B` para decrementar, a contagem retorna para `9`;
 - Se o contador estiver em `9` e o usuário pressionar `A` para incrementar, a contagem retorna para `0`;
+- Todo efeito bouncing de até 500 ms decorrente do pressionamento das teclas é tratado via software;
 
 ## 5. 🧰 Pré-requisitos para executar
 
