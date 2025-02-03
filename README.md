@@ -9,7 +9,6 @@
 5. [🧰 Pré-requisitos para executar](#5--pré-requisitos-para-executar)
 6. [💻 Como executar a simulação](#6--como-executar-a-simulação)
 7. [🐶 Como executar o código na placa BitDogLab](#7--como-executar-o-código-na-placa-bitdoglab)
-8. [✨ Recursos para versionamento](#8--recursos-para-versionamento)
 
 ## 1. 💡 O que é este projeto
 
